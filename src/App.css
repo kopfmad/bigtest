@@ -34,3 +34,28 @@
 .RenderListUmElemento {
   background-image: linear-gradient(-18deg, rgb(146, 109, 6), rgb(166, 255, 0));
 }
+
+.ConditionalRenderUmElemento {
+  background-image: linear-gradient(-128deg, rgb(14, 7, 44), rgb(255, 0, 0));
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.RenderLigado {
+  background-color: white;
+  padding: 1rem;
+  color: black;
+  border-radius: 10px;
+  max-width: min-content;
+}
+
+.RenderDesligado {
+  background-color: black;
+  padding: 1rem;
+  color: white;
+  border-radius: 10px;
+  max-width: min-content;
+}

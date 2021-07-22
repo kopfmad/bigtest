@@ -12,6 +12,8 @@ export default function RenderListUmElemento() {
   }
   //Normalmente eu faria a atualização da lista com push(), mas aqui tenho que fazer isso dentro do setState. Além disso uso ...spread operator, que vai quebrar a array antiga em varios elementos, e adicionar mais um elemento lorem_10. Com isso vou adicionando strings na minha array especial criada com useState. Novamente aqui eu tenho um caso que o state atual depende do anterior, pois estou adicionando algo por cima do anterior.
 
+  // https://www.techiediaries.com/react-usestate-hook-update-array/
+
   return (
     <div className="RenderListUmElemento">
       <h2>
