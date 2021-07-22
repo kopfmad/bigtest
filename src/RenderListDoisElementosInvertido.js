@@ -4,7 +4,8 @@ export default function RenderListDoisElementosInvertido() {
   return (
     <div>
       <h2>
-        Este é o teste de um renderlist, com dois componentes, sendo o output o pai, e o radio input o filho
+        Este é o teste de um renderlist, com dois componentes, sendo os outputs
+        o pai, e os botões o filho
       </h2>
     </div>
   )

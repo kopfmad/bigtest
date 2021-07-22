@@ -11,6 +11,10 @@ import InputFieldDoisElementos from './InputFieldDoisElementos'
 import InputFieldDoisElementosInvertido from './InputFieldDoisElementosInvertido'
 import RenderListDoisElementos from './RenderListDoisElementos'
 import RenderListDoisElementosInvertido from './RenderListDoisElementosInvertido'
+import ConditionalRenderDoisElementos from './ConditionalRenderDoisElementos'
+import ConditionalRenderDoisElementosInvertido from './ConditionalRenderDoisElementosInvertido'
+import ConditionalStylingDoisElementos from './ConditionalStylingDoisElementos'
+import ConditionalStylingDoisElementosInvertido from './ConditionalStylingDoisElementosInvertido'
 
 function App() {
   return (
@@ -48,10 +52,18 @@ function App() {
       <div className="Container RenderListDoisElementosInvertido">
         <RenderListDoisElementosInvertido />
       </div>
-      <div className="Container ConditionalRenderDoisElementos"></div>
-      <div className="Container ConditionalRenderDoisElementosInvertido"></div>
-      <div className="Container ConditionalStylingDoisElementos"></div>
-      <div className="Container ConditionalStylingDoisElementosInvertido"></div>
+      <div className="Container ConditionalRenderDoisElementos">
+        <ConditionalRenderDoisElementos />
+      </div>
+      <div className="Container ConditionalRenderDoisElementosInvertido">
+        <ConditionalRenderDoisElementosInvertido />
+      </div>
+      <div className="Container ConditionalStylingDoisElementos">
+        <ConditionalStylingDoisElementos />
+      </div>
+      <div className="Container ConditionalStylingDoisElementosInvertido">
+        <ConditionalStylingDoisElementosInvertido />
+      </div>
     </div>
   )
 }
