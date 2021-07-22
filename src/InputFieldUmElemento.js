@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 
 export default function InputFieldUmElemento() {
-  let [numero, setNumero] = useState(4)
+  let [numero, setNumero] = useState('Digite o seu nome')
   let textodoinput
 
   function JogaInputText(event) {

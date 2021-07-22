@@ -22,7 +22,7 @@
 }
 
 .BotaoSimplesUmElemento {
-  background-color: chartreuse;
+  background-image: linear-gradient(rgb(107, 107, 15), rgb(53, 77, 40));
   max-width: max-content;
 }
 
@@ -53,9 +53,43 @@
 }
 
 .RenderDesligado {
-  background-color: black;
   padding: 1rem;
+  background-color: black;
   color: white;
   border-radius: 10px;
   max-width: min-content;
+}
+
+.ConditionalStylingUmElemento {
+  background-image: linear-gradient(rgb(0, 0, 0), rgb(82, 82, 82));
+  color: white;
+}
+
+.btnstyle {
+  background-color: crimson;
+  color: white;
+}
+
+.BotaoSimplesDoisElementos {
+  background-color: teal;
+}
+.BotaoSimplesDoisElementosFilho {
+  background-color: rgb(41, 202, 202);
+}
+.BotaoSimplesDoisElementosInvertido {
+  background-color: rgb(128, 0, 0);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.BotaoSimplesDoisElementosInvertido h2 {
+  color: white;
+}
+
+.BotaoSimplesDoisElementosInvertidoFilho {
+  background-color: rgb(235, 69, 69);
+  max-width: 300px;
+  font-size: large;
 }
