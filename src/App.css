@@ -11,4 +11,22 @@
   margin-top: 1rem;
   margin-bottom: 1rem;
   background-color: brown;
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  padding: 2rem;
+  font-size: 2rem;
+  margin: 1rem;
+}
+
+.BotaoSimplesUmElemento {
+  background-color: chartreuse;
+  max-width: max-content;
+}
+
+.InputFieldUmElemento {
+  background-image: linear-gradient(-18deg, rgb(16, 16, 105), blue);
+  color: white;
 }

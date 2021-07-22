@@ -1,4 +1,3 @@
-import logo from './logo.svg'
 import './App.css'
 import BotaoSimplesUmElemento from './BotaoSimplesUmElemento'
 import InputFieldUmElemento from './InputFieldUmElemento'
@@ -19,49 +18,49 @@ import ConditionalStylingDoisElementosInvertido from './ConditionalStylingDoisEl
 function App() {
   return (
     <div className="App">
-      <div className="Container BotaoSimplesUmElemento">
+      <div className="Container">
         <BotaoSimplesUmElemento />
       </div>
-      <div className="Container InputFieldUmElemento">
+      <div className="Container">
         <InputFieldUmElemento />
       </div>
-      <div className="Container RenderListUmElemento">
+      <div className="Container">
         <RenderListUmElemento />
       </div>
-      <div className="Container ConditionalRenderUmElemento">
+      <div className="Container">
         <ConditionalRenderUmElemento />
       </div>
-      <div className="Container ConditionalStylingUmElemento">
+      <div className="Container">
         <ConditionalStylingUmElemento />
       </div>
-      <div className="Container BotaoSimplesDoisElementos">
+      <div className="Container">
         <BotaoSimplesDoisElementos />
       </div>
-      <div className="Container BotaoSimplesDoisElementosInvertido">
+      <div className="Container">
         <BotaoSimplesDoisElementosInvertido />
       </div>
-      <div className="Container InputFieldDoisElementos">
+      <div className="Container">
         <InputFieldDoisElementos />
       </div>
-      <div className="Container InputFieldDoisElementosInvertido">
+      <div className="Container">
         <InputFieldDoisElementosInvertido />
       </div>
-      <div className="Container RenderListDoisElementos">
+      <div className="Container">
         <RenderListDoisElementos />
       </div>
-      <div className="Container RenderListDoisElementosInvertido">
+      <div className="Container">
         <RenderListDoisElementosInvertido />
       </div>
-      <div className="Container ConditionalRenderDoisElementos">
+      <div className="Container">
         <ConditionalRenderDoisElementos />
       </div>
-      <div className="Container ConditionalRenderDoisElementosInvertido">
+      <div className="Container">
         <ConditionalRenderDoisElementosInvertido />
       </div>
-      <div className="Container ConditionalStylingDoisElementos">
+      <div className="Container">
         <ConditionalStylingDoisElementos />
       </div>
-      <div className="Container ConditionalStylingDoisElementosInvertido">
+      <div className="Container">
         <ConditionalStylingDoisElementosInvertido />
       </div>
     </div>
