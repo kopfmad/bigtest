@@ -118,7 +118,19 @@
 
 .RenderListDoisElementos {
   background-image: radial-gradient(blue, green);
+  display: grid;
+  place-items: center;
 }
 .RenderListDoisElementosFilho {
   background-image: radial-gradient(rgb(83, 83, 212), rgb(52, 190, 52));
+  width: fit-content;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.RenderListDoisElementosInvertido {
+  background-color: coral;
+}
+.RenderListDoisElementosInvertidoFilho {
+  background-color: crimson;
 }
