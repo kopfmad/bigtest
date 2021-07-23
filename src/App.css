@@ -143,3 +143,30 @@
   background-color: blanchedalmond;
   color: black;
 }
+
+.crde_ligado {
+  background-color: greenyellow;
+  color: black;
+}
+.crde_desligado {
+  color: gray;
+  background-color: rgb(65, 62, 62);
+}
+
+.ConditionalRenderDoisElementosInvertido {
+  background-color: rgb(66, 15, 15);
+  color: antiquewhite;
+}
+.ConditionalRenderDoisElementosInvertidoFilho {
+  background-color: blanchedalmond;
+  color: black;
+}
+
+.crdei_ligado {
+  background-color: rgb(255, 113, 47);
+  color: black;
+}
+.crdei_desligado {
+  color: gray;
+  background-color: rgb(65, 62, 62);
+}
