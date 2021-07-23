@@ -134,3 +134,12 @@
 .RenderListDoisElementosInvertidoFilho {
   background-color: crimson;
 }
+
+.ConditionalRenderDoisElementos {
+  background-color: gray;
+  color: antiquewhite;
+}
+.ConditionalRenderDoisElementosFilho {
+  background-color: blanchedalmond;
+  color: black;
+}
