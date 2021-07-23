@@ -115,3 +115,10 @@
   margin: 1rem;
   width: max-content;
 }
+
+.RenderListDoisElementos {
+  background-image: radial-gradient(blue, green);
+}
+.RenderListDoisElementosFilho {
+  background-image: radial-gradient(rgb(83, 83, 212), rgb(52, 190, 52));
+}
