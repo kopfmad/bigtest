@@ -170,3 +170,25 @@
   color: gray;
   background-color: rgb(65, 62, 62);
 }
+
+.ConditionalStylingDoisElementos {
+  display: grid;
+  place-items: center;
+}
+.ConditionalStylingDoisElementosFilho {
+  background-color: greenyellow;
+  width: fit-content;
+  padding: 2rem;
+  font-size: 1.5rem;
+  margin: 0.5rem;
+  transform: scale(1);
+}
+
+.ConditionalStylingDoisElementosInvertido {
+  background-color: rgb(2, 2, 119);
+  color: white;
+  font-size: 16px;
+}
+.ConditionalStylingDoisElementosInvertidoFilho {
+  background-color: rgb(177, 175, 175);
+}
