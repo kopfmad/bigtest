@@ -103,3 +103,15 @@
   color: white;
   margin: 2rem;
 }
+
+.InputFieldDoisElementosInvertido {
+  background: violet;
+  display: grid;
+  place-items: center;
+}
+.InputFieldDoisElementosInvertidoFilho {
+  background-color: teal;
+  padding: 1rem;
+  margin: 1rem;
+  width: max-content;
+}
