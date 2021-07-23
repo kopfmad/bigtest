@@ -93,3 +93,13 @@
   max-width: 300px;
   font-size: large;
 }
+
+.InputFieldDoisElementos {
+  color: white;
+  background-color: rgb(3, 3, 128);
+}
+.InputFieldDoisElementosFilho {
+  background-color: rgb(29, 58, 1);
+  color: white;
+  margin: 2rem;
+}
